@@ -1,0 +1,33 @@
+body {
+  font-family: 'Noto Sans JP', sans-serif;
+}
+
+.post-meta {
+  font-size: 6px;
+  color: #ddd;
+}
+
+.card-text-wrap {
+  height: 11rem;
+}
+
+/* .card-text-wrap .card-text p{
+  height: 145px;
+} */
+
+.card {
+  margin: 0 13px;
+  width: 16rem;
+}
+
+.container .row {
+  justify-content: center;
+}
+
+@media (max-width: 576px) {
+  .card {
+    width: 44%;
+    margin: 5px 2px;
+  }
+
+}
