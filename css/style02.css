@@ -1,0 +1,40 @@
+body {
+  font-family: 'Noto Sans JP', sans-serif;
+}
+
+.container .row {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.navbar .navbar-brand img {
+  width: 5vw;
+  height: 5vh;
+}
+
+.card {
+  margin: 0 13px;
+  width: 16rem;
+}
+
+.card .card-text-wrap {
+  height: 11rem;
+}
+
+.card .card-text-wrap .post-meta {
+  font-size: 6px;
+  color: #ddd;
+}
+
+@media (max-width: 576px) {
+  .navbar .navbar-brand img {
+    width: 30vw;
+    height: 3vh;
+  }
+  .card {
+    width: 44%;
+    margin: 5px 2px;
+  }
+}
+/*# sourceMappingURL=style02.css.map */
